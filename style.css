@@ -250,8 +250,8 @@ body{
 
 .hero-image{
     order:0; /* image stays top naturally */
-    width:220px;
-    height:220px;
+    width:320px;
+    height:320px;
 }
 
 .hero-text{
