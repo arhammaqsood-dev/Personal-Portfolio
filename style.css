@@ -40,6 +40,8 @@ body{
 .logo{
     font-weight:800;
     color:#6366f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 
 .links{
@@ -50,8 +52,11 @@ body{
 .links a{
     color:#e5e7eb;
     text-decoration:none;
-    font-size:14px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
     transition:0.3s;
+    margin-left: 10px;
 }
 
 .links a:hover{
@@ -146,8 +151,10 @@ body{
 
 .section h2{
     color:#6366f1;
-    margin-bottom:25px;
-    font-size:24px;
+    margin-bottom:45px;
+    font-size:34px;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* GRID */
@@ -181,6 +188,19 @@ body{
     text-align:center;
 }
 
+.p{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:10px;
+     margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(225, 228, 231);
+    text-decoration: none;
+}
+
+
+
 /* FOOTER (NEW ADD) */
 .footer{
     padding:20px 8%;
@@ -194,6 +214,8 @@ body{
 .footer h3{
     color:#6366f1;
     margin-bottom:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 
 .footer p{
@@ -235,7 +257,6 @@ body{
 }
 
 /* RESPONSIVE */
-@media(max-width:900px){
 
 @media(max-width:900px){
 
@@ -315,6 +336,7 @@ body{
 
 .footer h3{
     font-size:18px;
+    
 }
 
 .footer p{
